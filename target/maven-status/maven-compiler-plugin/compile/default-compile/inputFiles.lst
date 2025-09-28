@@ -1,0 +1,11 @@
+C:\Users\joaop\OneDrive\Área de Trabalho\DTI\CaseDTI\src\main\java\com\dti\dronesimulator\controller\DroneController.java
+C:\Users\joaop\OneDrive\Área de Trabalho\DTI\CaseDTI\src\main\java\com\dti\dronesimulator\DroneSimulatorApplication.java
+C:\Users\joaop\OneDrive\Área de Trabalho\DTI\CaseDTI\src\main\java\com\dti\dronesimulator\enums\DroneState.java
+C:\Users\joaop\OneDrive\Área de Trabalho\DTI\CaseDTI\src\main\java\com\dti\dronesimulator\enums\Prioridade.java
+C:\Users\joaop\OneDrive\Área de Trabalho\DTI\CaseDTI\src\main\java\com\dti\dronesimulator\model\Coordenada.java
+C:\Users\joaop\OneDrive\Área de Trabalho\DTI\CaseDTI\src\main\java\com\dti\dronesimulator\model\Drone.java
+C:\Users\joaop\OneDrive\Área de Trabalho\DTI\CaseDTI\src\main\java\com\dti\dronesimulator\model\Pedido.java
+C:\Users\joaop\OneDrive\Área de Trabalho\DTI\CaseDTI\src\main\java\com\dti\dronesimulator\repository\DroneRepository.java
+C:\Users\joaop\OneDrive\Área de Trabalho\DTI\CaseDTI\src\main\java\com\dti\dronesimulator\repository\PedidoRepository.java
+C:\Users\joaop\OneDrive\Área de Trabalho\DTI\CaseDTI\src\main\java\com\dti\dronesimulator\service\DroneAllocationService.java
+C:\Users\joaop\OneDrive\Área de Trabalho\DTI\CaseDTI\src\main\java\com\dti\dronesimulator\service\DroneSimulationService.java

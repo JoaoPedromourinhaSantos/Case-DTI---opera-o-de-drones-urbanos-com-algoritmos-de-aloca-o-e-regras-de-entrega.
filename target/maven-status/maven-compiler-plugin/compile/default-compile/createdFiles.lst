@@ -1,0 +1,11 @@
+com\dti\dronesimulator\model\Pedido.class
+com\dti\dronesimulator\enums\DroneState.class
+com\dti\dronesimulator\service\DroneAllocationService.class
+com\dti\dronesimulator\DroneSimulatorApplication.class
+com\dti\dronesimulator\enums\Prioridade.class
+com\dti\dronesimulator\model\Coordenada.class
+com\dti\dronesimulator\model\Drone.class
+com\dti\dronesimulator\repository\DroneRepository.class
+com\dti\dronesimulator\repository\PedidoRepository.class
+com\dti\dronesimulator\controller\DroneController.class
+com\dti\dronesimulator\service\DroneSimulationService.class
