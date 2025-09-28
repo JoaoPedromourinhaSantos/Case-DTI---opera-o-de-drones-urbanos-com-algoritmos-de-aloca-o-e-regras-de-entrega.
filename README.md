@@ -1,1 +1,1 @@
-# Case-DTI---opera-o-de-drones-urbanos-com-algoritmos-de-aloca-o-e-regras-de-entrega.
+# Case-DTI - operação de drones urbanos com algoritmos de alocação e regras de entrega.
