@@ -5,11 +5,31 @@ Este projeto simula a operação de uma frota de drones urbanos para entrega de 
 # 1. Pré-requisitos 
 Para rodar o simulador localmente, você precisa ter as seguintes ferramentas instaladas:
 
-**Java Development Kit (JDK):** Versão 21 ou superior (o projeto usa java.version 21).
+* **Java Development Kit (JDK):** Versão 21 ou superior (o projeto usa java.version 21).
+[**Download Java 21 JDK (Oracle)**](https://www.oracle.com/br/java/technologies/downloads/#java21)
 
-**Apache Maven:** Versão 3.6.0 ou superior (para gerenciamento de dependências e build).
+<img width="1857" height="922" alt="instalarjdk21" src="https://github.com/user-attachments/assets/c67ce206-2d7c-43b7-a91a-2184708a9dc2" />
 
-**Cliente REST:** Thunder Client (extensão do VS Code) ou Postman para testar os endpoints.
+
+
+* **Apache Maven:** Versão 3.6.0 ou superior (para gerenciamento de dependências e build).
+
+
+💡 Nota Importante: 
+
+Se você estiver usando uma IDE moderna (como IntelliJ IDEA, Eclipse ou VS Code com as extensões Java) e o comando mvn já estiver funcionando, você não precisa fazer a instalação manual. A própria IDE ou o Maven Wrapper (mvnw) cuidará disso automaticamente.
+
+Requisito:
+
+Apache Maven: Versão 3.6.0 ou superior.
+
+Instruções de Instalação Manual
+Caso precise instalar o Maven globalmente no Windows, você pode seguir este tutorial em vídeo, que cobre a instalação e a configuração das variáveis de ambiente (JAVA_HOME e Path):
+
+[Vídeo Tutorial: Instalação e Configuração do Maven no Windows](https://www.youtube.com/watch?v=-ucX5w8Zm8s)
+  
+
+* **Cliente REST:** Thunder Client (extensão do VS Code) ou Postman para testar os endpoints.
 
 # 2. Configuração do Ambiente e Compilação
 Siga estes passos para preparar o ambiente e construir o projeto.
@@ -23,12 +43,12 @@ Clone o repositório através do git Desktop e navegue até a pasta raiz do proj
 
 ## 2.2. Compilação e Instalação
 
-Use o Maven para limpar, compilar e empacotar a aplicação, garantindo que o Lombok gere todos os métodos de acesso (getters/setters).
-
 ### **Primeiro Passo:** crie um novo terminal dentro da pasta CASEDTI 
 
 
 <img width="1916" height="1028" alt="CriandoTerminal" src="https://github.com/user-attachments/assets/a4b9921f-854b-46ec-a556-24573f293a20" />
+
+Use o Maven para limpar, compilar e empacotar a aplicação, garantindo que o Lombok gere todos os métodos de acesso (getters/setters).
 
 ### **Segundo Passo**: use os dois comandos abaixo dentro do terminal          
          1.  mvn clean 
