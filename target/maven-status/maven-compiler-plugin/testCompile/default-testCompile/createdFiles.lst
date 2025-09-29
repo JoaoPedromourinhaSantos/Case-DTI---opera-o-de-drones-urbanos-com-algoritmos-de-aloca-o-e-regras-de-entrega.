@@ -1,0 +1,3 @@
+com\dti\dronesimulator\model\CoordenadaTest.class
+com\dti\dronesimulator\service\DroneAllocationServiceTest.class
+com\dti\dronesimulator\controller\DroneControllerTest.class

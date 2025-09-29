@@ -24,7 +24,10 @@ public class DroneAllocationService {
         // Fila de entrega: Priorizar (ALTA > MEDIA > BAIXA) e, em caso de empate, pelo mais antigo
         List<Pedido> pedidosPendentes = pedidoRepository.findPendingOrders().stream()
                 .sorted(Comparator
-                        .comparing(Pedido::getPrioridade, Comparator.reverseOrder()) 
+                        // CORREÇÃO: Usando Lambda explícito para comparar pelo NÍVEL numérico (3, 2, 1)
+                        // em ordem DECRESCENTE (ALTA > MEDIA > BAIXA).
+                        .comparing((Pedido p) -> p.getPrioridade().getNivel(), Comparator.reverseOrder())
+                        // Em caso de empate, o mais antigo primeiro (data crescente).
                         .thenComparing(Pedido::getDataChegada)) 
                 .collect(Collectors.toList());
 
