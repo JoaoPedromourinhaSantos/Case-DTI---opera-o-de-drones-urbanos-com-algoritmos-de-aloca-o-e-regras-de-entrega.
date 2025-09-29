@@ -65,9 +65,9 @@ public class DroneAllocationService {
         }
         System.out.println("--- Alocação Concluída. Pedidos restantes: " + pedidosPendentes.size() + " ---\n");
     }
-
     /**
-     * Algoritmo Guloso Otimizado: Garante que a rota total (Base -> C1 -> ... -> Cn -> Base) não exceda a autonomia.
+     * Encontra a combinação ótima de pacotes para o drone, maximizando o uso
+     * dentro das limitações de capacidade e autonomia.
      */
     private List<Pedido> findOptimalPackageCombination(Drone drone, List<Pedido> pedidos) {
         List<Pedido> pacotesSelecionados = new ArrayList<>();
